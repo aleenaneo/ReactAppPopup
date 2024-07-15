@@ -1,0 +1,52 @@
+.popup-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup p {
+    margin-bottom: 10px;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Background color */
+    border-radius: 4px;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  /* Styles for the specific "Open Popup" button */
+  .open-popup-btn {
+    color: #fff; /* Text color */
+    background-color: #0056b3; /* Background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .open-popup-btn:hover {
+    background-color: #004999; /* Darker background color on hover */
+  }
+  
