@@ -1,12 +1,15 @@
-import React from 'react'
-import Counter from './component/Counter'
+// CounterComponent.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Counter from './component/Counter';
 
 const CounterComponent = () => {
   return (
     <>
       <Counter />
     </>
-  )
-}
+  );
+};
 
-export default CounterComponent
+ReactDOM.createRoot(document.getElementById('childroot')).render(<CounterComponent />);
+export default CounterComponent;
